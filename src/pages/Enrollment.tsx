@@ -58,18 +58,7 @@ const Enrollment = () => {
               </div>
             </div>
 
-            <div className="p-8 rounded-2xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-xl">
-              <div className="flex items-center space-x-4 mb-4">
-                <img src="https://i.pravatar.cc/100?img=12" className="w-12 h-12 rounded-full" alt="Parent" />
-                <div>
-                  <div className="text-sm font-bold text-slate-900 dark:text-white">Mrs. Fatima, UK</div>
-                  <div className="text-xs text-slate-500">Parent of 2 Students</div>
-                </div>
-              </div>
-              <p className="text-sm text-slate-600 dark:text-slate-400 italic">
-                "The enrollment was so smooth. Within a few hours, I had the meeting link and my kids were excited for their first trial class!"
-              </p>
-            </div>
+         
           </motion.div>
 
           {/* Right Side: Form */}
