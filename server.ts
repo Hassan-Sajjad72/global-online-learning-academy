@@ -43,6 +43,11 @@ async function startServer() {
   app.use(cors());
   app.use(express.json());
 
+  // Public health/readiness endpoint for DeployGuard
+  app.get('/health', (_req, res) => {
+    res.status(200).json({ status: 'ok' });
+  });
+
   // Connect to MongoDB with short timeout so it fails fast in environments without MongoDB
   try {
     console.log('Connecting to MongoDB...');
