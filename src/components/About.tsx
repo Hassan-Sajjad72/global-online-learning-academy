@@ -6,7 +6,7 @@ const About = () => {
   const features = [
     {
       icon: Target,
-      title: 'Our Mission',
+      title: 'Our Mission-commit',
       desc: 'To provide world-class education to overseas Pakistani students, bridging the gap between their cultural roots and global standards.',
       color: 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400',
     },
